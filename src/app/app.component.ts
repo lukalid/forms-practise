@@ -11,6 +11,8 @@ export class AppComponent {
   @ViewChild('f', { static: false }) form: NgForm;
   defaultQuestion = 'pet';
   answer = '';
+  genders = ['male', 'female'];
+  defaultGender = 'male';
 
   suggestUserName() {
     const suggestedName = 'Superuser';
