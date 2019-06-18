@@ -9,3 +9,7 @@ input.ng-invalid.ng-touched {
 .btn {
   margin-bottom: 10px;
 }
+
+input.ng-touched.ng-pending {
+  border: 1px solid blue;
+}
